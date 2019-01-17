@@ -8,8 +8,6 @@ Facial expression is one of the most natural nonverbal communication media that 
 
 In this work, AU images are classified using the technology of transfer learning and relatively good results are achieved.
 
-
-
 ## CKPlus Database
 
 This database is based on the Cohn-Kanade Dataset and was released in 2010. This database is available for free, including the label of the expression and the label of the Action Units.
@@ -18,7 +16,7 @@ The database contains 123 subjects, 593 image sequences, and the last frame of e
 
 ![AU.bmp](./images/au.bmp)
 
-现介绍对AU图像的预处理操作([take_a_look.ipynb](https://github.com/jiweibo/AU_Recognition/blob/master/take_a_look.ipynb))。
+([take_a_look.ipynb](https://github.com/jiweibo/AU_Recognition/blob/master/take_a_look.ipynb))
 
 Now introduce the preprocess of AU image
 
@@ -74,12 +72,8 @@ AU64: 4
 The data and graphs all reflect that the AU distribution is very unbalcanced. Here, only AUs with a number greater than 90 are selected as the dataset.
 
 
-最终，要识别的AU有：1, 2, 4, 5, 6, 7, 12, 15, 17, 25
-
 In the end, the AUs to identify are: 1, 2, 4, 5, 6, 7, 12, 15, 17, 25
 
-
-还需要对label进行One-hot处理,在此不做介绍。
 
 One-hot processing of the label is also required and will not be described here.
 
